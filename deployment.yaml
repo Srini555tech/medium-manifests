@@ -11,7 +11,7 @@ metadata:
     fluxcd.io/automated: "false"
     fluxcd.io/ignore: "true"
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: kustomize-test
